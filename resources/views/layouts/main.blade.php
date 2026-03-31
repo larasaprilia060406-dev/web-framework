@@ -9,6 +9,7 @@
             padding: 60px 15px 0;
         }
     </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ asset('/css/bootstrap.min.css') }}" rel="stylesheet">
 </head>
 <body class="d-flex flex-column h-100">
