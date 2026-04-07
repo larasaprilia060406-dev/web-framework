@@ -18,6 +18,8 @@ Route::get('/mahasiswa', [MahasiswaController::class, 'index']);
 
 Route::get('/dosen', [DosenController::class, 'index']);
 
+Route::get('/insert-sql', [MahasiswaController::class, 'insertSql']);
+
 // Route biasa
 // Route::get('/mahasiswa', function () {
 //     $mhs = ['Andi', 'Budi', 'Cici', 'Dedi', 'Eka'];
